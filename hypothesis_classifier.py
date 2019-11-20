@@ -51,6 +51,7 @@ def plot_joint_gaussian(dataset_h0, dataset_h1, μX0, μY0, μX1, μY1, σX, σY
     return
 
 
+''' READ DATASETS '''
 tempmat = io.loadmat('gaussiandata.mat')
 parta_H0_data = tempmat['parta_H0_data']
 parta_H1_data = tempmat['parta_H1_data']
